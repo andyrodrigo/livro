@@ -1,0 +1,29 @@
+.caixa_principal {
+  border: solid black 1px;
+  background-color: #212529;
+  margin: 10px;
+  box-shadow: 5px 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.caixa_imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  color: #fff;
+}
+
+.caixa_imagem > img {
+  max-width: 150px;
+}
+
+.caixa_texto {
+  font-size: 12px;
+  margin: 10px;
+  color: #fff;
+  text-align: justify;
+  max-width: 400px;
+}

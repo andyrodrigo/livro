@@ -1,1 +1,39 @@
-<p>livro works!</p>
+<main class="pagina">
+  <section class="lado_capa">
+    <div class="bloco">
+      <div class="cover_book">
+        <img id="capa" [src]="capa" alt="capa do livro" />
+      </div>
+
+      <div>
+        <div class="bto">Onde Comprar</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="bloco_ficha">
+      <h4 class="branco">Gênero</h4>
+      <div>{{ genero }}</div>
+    </div>
+
+    <hr />
+
+    <div class="bloco_ficha">
+      <h4 class="branco">Ficha Técnica</h4>
+      <div><span class="branco">Lançamento:</span> {{ data }}</div>
+      <div><span class="branco">Título Original:</span> {{ titulo }}</div>
+      <div><span class="branco">Autor:</span> {{ autor }}</div>
+      <div><span class="branco">Editora:</span> {{ editora }}</div>
+      <div><span class="branco">Formato:</span> {{ formato }}</div>
+      <div><span class="branco">Número de Páginas:</span> {{ paginas }}</div>
+      <div><span class="branco">Acabamento:</span> {{ acabamento }}</div>
+    </div>
+  </section>
+
+  <section class="lado_resumo">
+    <div class="sinopse">
+      {{ resumo }}
+    </div>
+  </section>
+</main>

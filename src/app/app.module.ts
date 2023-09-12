@@ -12,6 +12,7 @@ import { ImagensComponent } from './components/imagens/imagens.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { DepoimentosComponent } from './components/depoimentos/depoimentos.component';
 import { ArtigosComponent } from './components/artigos/artigos.component';
+import { PesonagemComponent } from './components/pesonagem/pesonagem.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ArtigosComponent } from './components/artigos/artigos.component';
     DepoimentosComponent,
     ArtigosComponent,
     HomeComponent,
+    PesonagemComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

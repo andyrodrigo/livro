@@ -1,0 +1,67 @@
+.pagina {
+  width: 100%;
+  height: 100%;
+  background-color: #303030;
+  color: #b8b8b8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lado_capa {
+  min-width: 300px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lado_resumo {
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloco_ficha {
+  margin-left: 25px;
+}
+
+.cover_book {
+  border: solid #b8b8b8 1px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#capa {
+  width: 220px;
+}
+
+.bto {
+  background-color: #303030;
+  border-radius: 5px;
+  color: #ffffff;
+  border: solid #ffffff 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 15px;
+}
+
+.bto:hover {
+  background-color: #a71c19;
+}
+
+.sinopse {
+  text-align: justify;
+  display: flex;
+  margin: 20px;
+}
+
+.branco {
+  color: #ffffff;
+}
