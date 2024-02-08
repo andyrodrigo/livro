@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'livro', component: LivroComponent },
   { path: 'autor', component: AutorComponent },
-  { path: 'imagens', component: ImagensComponent },
+  { path: 'personagens', component: ImagensComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'depoimentos', component: DepoimentosComponent },
   { path: 'artigos', component: ArtigosComponent },

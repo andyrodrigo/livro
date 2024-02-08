@@ -9,12 +9,12 @@ export class LivroComponent implements OnInit {
   capa: string = './assets/images/capa.png';
 
   titulo: string = 'Garota da Noite';
-  data: string = '15/11/23';
+  data: string = '15/03/24';
   autor: string = 'Anderson Benício';
   genero: string = 'Romance / Ficção';
   editora: string = 'Viseu';
   formato: string = '16 x 23 cm';
-  acabamento: string = 'Brochura';
+  acabamento: string = 'Brochura, Capa com Brilho e Miolo Amarelo';
   paginas: number = 620;
 
   resumo: string =

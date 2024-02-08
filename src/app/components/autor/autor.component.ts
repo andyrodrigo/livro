@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./autor.component.css'],
 })
 export class AutorComponent implements OnInit {
-  foto: string = './assets/images/perfil.jpg';
+  foto: string = './assets/images/autor.png';
   texto1: string =
     'Anderson Benício nasceu em Natal-RN no dia de natal. Quando jovem gostava de desenhar, criar jogos e histórias em quadrinhos. Seu gosto pela leitura teve incentivo de sua avó, que até hoje, aos 95 anos, é uma leitora assídua.';
   texto2: string =

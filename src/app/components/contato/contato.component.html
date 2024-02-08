@@ -1,1 +1,44 @@
-<p>contato works!</p>
+<main>
+  <h1 class="text-white mb-4">Envie Sua Mensagem</h1>
+  <form
+    action="https://formspree.io/f/xleqdjyv"
+    method="POST"
+    style="min-width: 320px; width: 50%; max-width: 500px"
+  >
+    <div
+      class="d-flex text-white flex-column w-100 border border-white rounded p-2"
+    >
+      <div class="text-white m-2">
+        <label for="nome" class="form-label">
+          Seu Nome: <span class="text-danger">*</span>
+        </label>
+        <input name="nome" type="text" class="form-control" required />
+      </div>
+
+      <div class="text-white m-2">
+        <label for="nome" class="form-label">
+          Seu E-mail: <span class="text-danger">*</span></label
+        >
+        <input name="email" type="email" class="form-control" required />
+      </div>
+
+      <div class="text-white m-2">
+        <label for="mensagem" class="form-label">
+          Sua Mensagem: <span class="text-danger">*</span>
+        </label>
+        <textarea
+          name="mensagem"
+          id="campo_mensagem"
+          cols="30"
+          rows="10"
+          class="form-control"
+          required
+        ></textarea>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="bto">Enviar</button>
+      </div>
+    </div>
+  </form>
+</main>
