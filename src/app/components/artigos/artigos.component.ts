@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { variaveis } from 'src/app/constants/variaveis.constants';
 
 @Component({
   selector: 'app-artigos',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArtigosComponent implements OnInit {
 
+  lancamento: string = './assets/images/lancamento.jpg';
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  navegar(): void {
+    window.open(variaveis.AMAZON, '_blank');
+  }
 }

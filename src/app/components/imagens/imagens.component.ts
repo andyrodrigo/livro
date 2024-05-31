@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { variaveis } from 'src/app/constants/variaveis.constants';
 
 @Component({
   selector: 'app-imagens',
@@ -103,7 +105,17 @@ export class ImagensComponent implements OnInit {
   texto_Daniel: string =
     'Daniel é um administrador numa loja de carros que nutre um sonho secreto de ser pintor. Sua paixão pela arte se manifesta em quadros extraordinários, mas ele hesita em seguir esse caminho, mantendo esse aspecto criativo de sua vida em segundo plano. A vida de Daniel toma uma reviravolta inesperada quando Valéria, uma vampira obscura e obsessiva, se apaixona por ele. Inicialmente uma stalker, a relação entre eles evolui quando ele se torna alvo de uma facção perigosa. Quando Valéria salva a vida de Daniel, desencadeia uma conexão única e estranha entre eles.';
 
-  constructor() {}
+  constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo(0, 0);
+      }
+    });
+  }
+
+  navegar(): void {
+  window.open(variaveis.AMAZON, '_blank');
+  }
 }

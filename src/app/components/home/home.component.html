@@ -1,1 +1,58 @@
-<p>home works!</p>
+<main class="w-100 d-flex flex-column align-items-center">
+    <div class="d-flex justify-content-center">
+        <video controls autoplay style="width: 90%; max-height: 300px; margin: 20px 0;">
+            <source [src]="trailer" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div>
+        <div class="bto" (click)="navegar()">Onde Comprar</div>
+    </div>
+
+    <div  class="border-bottom w-100"></div>
+
+    <div style="width: 90%; display: flex; flex-wrap: wrap; justify-content: center; margin: 20px 0;" routerLink="/livro">
+        <h2 style="color: white; cursor: pointer;">Conheça mais sobre o livro</h2>
+        <img style="width: 100%; cursor: pointer;" [src]="linkLivro" alt="link do livro" routerLink="/livro" />
+    </div>
+
+    <div class="w-100 d-flex flex-column align-items-center" style="width: 90%; margin: 20px 0;" routerLink="/personagens">
+        <h2 style="color: white; cursor: pointer;">Conheça os Personagens</h2>
+        <img style="width: 50%; max-width: 500px; cursor: pointer;" [src]="imageUrls[currentImageIndex]" alt="Imagem"  routerLink="/personagens">
+    </div>
+
+    <div>
+        <div class="bto" (click)="navegar()">Onde Comprar</div>
+    </div>
+
+    <div  class="border-bottom w-100"></div>
+
+    <app-depoimentos></app-depoimentos>
+
+    <section style="margin: 30px; border: 2px solid white;">
+        <div class=" d-flex flex-column align-items-center" style="margin: 20px; color: white;">
+            <h3 style="margin: 10px; text-align: center;">31/05/2024</h3>
+            <h4 style="margin: 10px; text-align: center;">Descubra um mundo de mistério e romance: Lançamento Digital de "Garota de Noite"</h4>
+            <div class="d-flex flex-column align-items-center" style="margin: 10px;">
+                <img style="width: 300px;" src="/assets/images/lancamento.jpg" alt="lançamento" />
+                <article class=" d-flex flex-column align-items-center">
+                    <p>É com grande entusiasmo que anuncio o lançamento digital do meu mais recente romance de ficção, "Garota de Noite".</p>
+                    <p>Embarque em uma jornada envolvente por entre as sombras da noite, onde o mistério se entrelaça com o romance em um cenário repleto de surpresas e reviravoltas. Ambientado em uma metrópole pulsante e misteriosa, este livro transporta os leitores para um universo onde o sobrenatural se entrelaça com a realidade de uma forma cativante.</p>
+                    <p>"Garota de Noite" narra a história de Valéria, uma personagem ativa em um mundo de segredos obscuros. Com uma narrativa habilmente tecida, o livro promete prender os leitores desde a primeira página até o surpreendente desfecho.</p>
+                    <p>Este lançamento digital oferece aos leitores uma nova forma de se perder nas páginas deste emocionante romance. Com acesso instantâneo através de dispositivos eletrônicos, os leitores podem mergulhar na trama de "Garota de Noite" a qualquer hora e em qualquer lugar.</p>
+                    <p>Para aqueles que buscam uma escapada da rotina cotidiana, "Garota de Noite" promete ser uma jornada inesquecível, repleta de emoções intensas e mistérios fascinantes. Prepare-se para se apaixonar, se surpreender e se emocionar enquanto desvenda os segredos que habitam as páginas deste romance envolvente.
+                    </p>
+                    <p> Não perca a oportunidade de embarcar nesta emocionante aventura. Adquira já sua cópia digital de "Garota de Noite".</p>
+                    <p> Estou ansioso para compartilhar esta jornada com você!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <div class="bto" (click)="navegar()">Onde Comprar</div>
+    </div>
+
+    <div  class="border-bottom w-100" style="margin-bottom: 30px;"></div>
+</main>

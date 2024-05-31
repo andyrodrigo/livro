@@ -1,0 +1,3 @@
+export enum variaveis {
+  AMAZON = 'https://www.amazon.com.br/Garota-Noite-Anderson-Ben%C3%ADcio-ebook/dp/B0D5J68C3H/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.ZZbgp72JkC_0gWmJCorIQXZ1dO7ev5Lq1mdADprGvh4hoe_SXO4Bp13c97z9-sPbkgrPPW57bowhC3vRspjusO9F4iOB6V1WWkJtSsoESKJmVNll2w6nwtyuWw4QfWZ5tiRFFRMhWedh7BOCFGNijMomuSc_ikmqs9zzPUM806L7T1xLOMxHIseAjuMBYJhndloP24GMbCat6Wq3CCDi5w0HxVN1s7Ra1hPgmWdFnEk.8tXvvgpvc2vY0ma3FTaTN4kRMNfKXXZjvUdOWqsDIP4&qid=1717176154&sr=1-4',
+}

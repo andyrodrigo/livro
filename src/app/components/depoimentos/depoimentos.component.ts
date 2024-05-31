@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { variaveis } from 'src/app/constants/variaveis.constants';
 
 @Component({
   selector: 'app-depoimentos',
@@ -25,4 +26,8 @@ export class DepoimentosComponent implements OnInit {
   nome_4: string = 'Jordana Souza';
 
   ngOnInit(): void {}
+
+  navegar(): void {
+    window.open(variaveis.AMAZON, '_blank');
+  }
 }

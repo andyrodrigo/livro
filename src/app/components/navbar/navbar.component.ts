@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { variaveis } from 'src/app/constants/variaveis.constants';
 
 @Component({
   selector: 'app-navbar',
@@ -12,4 +13,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navegar(): void {
+    window.open(variaveis.AMAZON, '_blank');
+  }
 }
