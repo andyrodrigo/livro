@@ -1,0 +1,9 @@
+.bto {
+    background-color: #303030;
+    border-radius: 5px;
+    color: #ffffff;
+    border: solid #ffffff 1px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px;
+  }
