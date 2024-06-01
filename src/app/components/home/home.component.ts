@@ -10,8 +10,9 @@ export class HomeComponent implements OnInit {
 
   trailer: string = './assets/midia/trailer.mp4';
   linkLivro: string = './assets/images/mockup.jpg';
+  lancamento: string = './assets/images/lancamento.jpg';
 
-  imagensGif: string = '/assets/midia/imagens.gif';
+  imagensGif: string = './assets/midia/imagens.gif';
 
   linkAmazon = variaveis.AMAZON;
 
