@@ -24,7 +24,7 @@ export class LivroComponent implements OnInit {
   imageUrls: string[] = [
     '/assets/images/cidade.jpeg',
     '/assets/images/alcateia.jpeg',
-    '/assets/images/castelo.jpeg',
+    '/assets/images/castelo.jpg',
     '/assets/images/xadrez.jpeg',
     '/assets/images/cenario.jpeg',
   ];

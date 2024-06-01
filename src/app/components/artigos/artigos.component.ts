@@ -9,6 +9,8 @@ import { variaveis } from 'src/app/constants/variaveis.constants';
 export class ArtigosComponent implements OnInit {
 
   lancamento: string = './assets/images/lancamento.jpg';
+  diagramacao: string = './assets/images/diagramacao.jpg';
+  ilustracaoCapa: string = './assets/images/ilustracaoCapa.jpg';
 
 
   constructor() { }
