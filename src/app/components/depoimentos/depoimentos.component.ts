@@ -22,7 +22,7 @@ export class DepoimentosComponent implements OnInit {
   nome_3: string = 'Ariadne Elisa';
 
   texto_4: string =
-    'A personagem principal do livro, nos leva a caminhar por sua dramática história de vida e morte, ao mesmo tempo em que se apaixona de forma improvável. Com uma narrativa muito bem escrita, personagens cativantes e intrigantes, Garota da Noite faz pensar sobre vários aspectos da personalidade humana, bem como das tramas da sociedade. Além disso, nos tira o fôlego com suas cenas picantes e confrontos de vida e morte. Uma obra que nos causa emoções intensas e que eu quero ver se tornar uma série de TV. Maravilhoso!';
+    'A personagem principal do livro, nos leva a caminhar por sua dramática história de vida e morte, ao mesmo tempo em que se apaixona de forma improvável. Com uma narrativa muito bem escrita, personagens cativantes e intrigantes, Garota da Noite faz pensar sobre vários aspectos da personalidade humana, bem como das tramas da sociedade. Além disso, nos tira o fôlego com suas cenas picantes e confrontos mortais. Uma obra que nos causa emoções intensas e que eu quero ver se tornar uma série de TV. Maravilhoso!';
   nome_4: string = 'Jordana Souza';
 
   ngOnInit(): void {}

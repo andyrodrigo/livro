@@ -21,27 +21,12 @@ export class LivroComponent implements OnInit {
   resumo: string =
     'Valéria é uma assassina impiedosa, mas, por trás de toda raiva, esconde um passado tenebroso. Todas as noites, ela observa o jovem Daniel. Sua curiosidade e desejo aumentam quanto mais ela percebe o quão diferente ele é da crueldade à qual ela está acostumada. Observá-lo torna-se um vício prazeroso, no entanto ela duvida que ele possa interessar-se por uma vampira assassina. Quando o rapaz se torna um alvo do misterioso grupo rival dos vampiros, ela precisa sair das sombras para protegê-lo e tenta equilibrar encontros noturnos com ele e o seu trabalho de assassina na guerra pela disputa de poder na cidade. Quanto mais tempo passam juntos, mais difícil fica de esconder sua verdadeira identidade. E enquanto a paixão aumenta, também aumentam as revelações sobre o passado sombrio de Valéria. Ela começa a desejar viver um romance em uma vida comum, porém será que a Srta. M. permitirá? Valéria conseguirá protegê-los de tantos inimigos? E será que Daniel realmente aceitará sua verdadeira natureza?';
 
-  imageUrls: string[] = [
-    '/assets/images/cidade.jpeg',
-    '/assets/images/alcateia.jpeg',
-    '/assets/images/castelo.jpg',
-    '/assets/images/xadrez.jpeg',
-    '/assets/images/cenario.jpeg',
-  ];
 
-  currentImageIndex: number = 0;
+  imagensGif: string = '/assets/midia/imagens.gif';
 
   constructor() {}
 
-  ngOnInit(): void {
-    setInterval(() => {
-      this.changeImage();
-    }, 3000);
-  }
-
-  changeImage() {
-    this.currentImageIndex = (this.currentImageIndex + 1) % this.imageUrls.length;
-  }
+  ngOnInit(): void {}
 
   navegar(): void {
   window.open(variaveis.AMAZON, '_blank');

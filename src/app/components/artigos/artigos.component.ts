@@ -12,7 +12,6 @@ export class ArtigosComponent implements OnInit {
   diagramacao: string = './assets/images/diagramacao.jpg';
   ilustracaoCapa: string = './assets/images/ilustracaoCapa.jpg';
 
-
   constructor() { }
 
   ngOnInit(): void {
